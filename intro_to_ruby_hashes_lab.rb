@@ -16,7 +16,7 @@ def monopoly_with_second_tier
   
   new_hash[:railroads] = {:pieces => 4}
   
-  new_hash[:railroads].push ({:rent_in_dollars => {}})
+  new_hash[:railroads][:rent_in_dollars] = {}
   
   new_hash[:railroads] << {:names => {}}
   
