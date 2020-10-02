@@ -43,7 +43,9 @@ def monopoly_with_third_tier
   new_hash[:railroads][:rent_in_dollars][:one_piece_owned] = 25
   
   
-  new_hash
+  new_hash[:railroads][:rent_in_dollars][:two_pieces_owned] = 50
+  
+  
 
 
 end
